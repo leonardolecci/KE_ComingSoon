@@ -1,0 +1,189 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #daa250; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: goldenrod;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.goldtext{
+    color: #daa250 !important;
+}
+
+.goldtext:hover{
+    color: goldenrod !important;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	body{
+    background-color: blue !important; 
+    color:white !important;
+    font-family: "Raleway", sans-serif !important;
+}
+	}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	body{
+    background-color: green !important; 
+    color:white !important;
+    font-family: "Raleway", sans-serif !important;
+}
+	}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	body{
+    background-color: red !important; 
+    color:white !important;
+    font-family: "Raleway", sans-serif !important;
+}
+	}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	body{
+    background-color: orange !important; 
+    color:white !important;
+    font-family: "Raleway", sans-serif !important;
+}
+	}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	body{
+    background-color: #151515 !important; 
+    color:white !important;
+    font-family: "Raleway", sans-serif !important;
+	}
+	
+	.bgimg-1, .bgimg-2, .bgimg-3 {
+		position: relative;
+		opacity: 0.65;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.bgimg-1 {
+		background-image: url("../img/DSC_0125.JPG");
+		min-height: 600px;
+	}
+
+	.caption {
+		position: absolute;
+		opacity: 0.85;
+		left: 0;
+		top: 15%;
+		width: 100%;
+		text-align: center;
+		color: #000000;
+	}
+	
+	.caption hr{
+		border: 5px solid #daa250;
+		width: 150px;
+	}
+
+	.bigger{
+		font-size: 90px;
+	}
+
+	.normal{
+		font-size: 80px;
+	}
+	
+	.smaller{
+		font-size: 50px;
+	}
+
+	#contentone {
+		height: 500px;
+		width: 100%;
+	}
+
+	.toprow{
+		width: 100%;
+		height: 500px;
+		text-align: center;
+		
+	}
+	
+	.toprow h1{
+		padding-top: 100px;
+		padding-bottom: 40px;
+		color: #daa250;
+		font-weight: bold;
+		font-size: 60px;
+	}
+	
+	.toprow h4{
+		padding-bottom: 20px;
+		font-weight: bold;
+	}
+	
+	.toprow h5{
+		font-style: italic;
+		padding-top: 20px;
+		color: #daa250;
+	}
+	
+	.toprow p{
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+
+	#myVideo {
+		right: 0px;
+		width: 100%;
+	}
+
+	#footer{
+		
+		bottom:10px;
+		width:100%;
+	}
+
+	footer {
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+	}
+
+	footer p {
+		margin-bottom: .25rem;
+	}
+	.goldhrfooter {
+		border: 0.2px solid #daa250;
+		margin-top: 0em;
+		margin-bottom: 0em;
+		width: 90%;
+	}
+	
+	.goldhr {
+		border: 0.5px solid #daa250;
+		margin-top: 0em;
+		margin-bottom: 0em;    
+	}
+	
+}
